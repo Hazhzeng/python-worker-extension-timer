@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-.venv*
-.env*
-.vscode/
-*egg-info*
-__pycache__
-||||||| merged common ancestors
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+*egg-info*
 
 # C extensions
 *.so
@@ -110,10 +103,10 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.venv
-env/
-venv/
+.env*
+.venv*
+env*/
+venv*/
 ENV/
 env.bak/
 venv.bak/
@@ -135,4 +128,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
->>>>>>> Initial commit
